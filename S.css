@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.head{
+    padding: 10px;
+    text-align: center;
+    padding: 8px;
+    background-image:  url(https://media.istockphoto.com/id/1438905176/photo/tomb-of-the-mughal-emperor-humayun-reflecting-on-the-rain-under-a-cloudy-sky-in-delhi-in-india.jpg?s=612x612&w=is&k=20&c=VVhJQBRzF9u0i3u8yrewQTzj1V33PpthGcBFZWtxNwQ=);
+    min-height: 100vh;
+}
+
+.a{
+    background-image: url(https://media.istockphoto.com/id/477529652/photo/hdr-cityscape-at-sunset-of-amer-jaipur-india.jpg?s=612x612&w=is&k=20&c=Zz2IBqcqjamr_a3zb9iv_gmjxb_c2cxTvBYKcc5FlvE=);
+    min-height: 1200px;
+}
+.b{
+    background-image: url(https://media.istockphoto.com/id/187182744/photo/young-girl-looking-at-fossils-in-a-case-at-the-museum.jpg?s=612x612&w=is&k=20&c=olWOlqZkX60t61c4gFBQLG8JSqzKftR5qD9atSAtcf4=);
+    min-height: 1200px;
+}
+.c{
+    background-image: url(https://media.istockphoto.com/id/546188716/photo/plitvice-lakes-park-in-croatia.jpg?s=612x612&w=is&k=20&c=PNpXLBfMN4VeWYTtmJgfOF2RCgmFhxWGu25_tVxo-g0=);
+    min-height: 1200px;
+}
+
+.head,.a,.b,.c{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1{
+    position: relative;
+    top:40vh;
+    left: 37vw;
+    height: 80px;
+    width: 600px;
+    font-size: 40px;
+    line-height: 80px;
+    background: #121212;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.cap{
+    position: relative;
+    top:41vh;
+}
+
+.sec{
+    position: relative;
+    top:250px;
+    height: 400px;
+    width: 98vw;
+    display: flex;
+    justify-content: space-between;
+    background: crimson;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;}
+
+h2{
+    background: #121212;
+    color: aliceblue;
+    padding: 8px;
+    margin: 8px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+p{
+    background-color: yellow;
+    padding: 8px;
+    margin: 8px;
+}
+
+img{
+    height:380px;
+    width:520px;
+    border-radius: 15px;
+    padding: 9px;
+}

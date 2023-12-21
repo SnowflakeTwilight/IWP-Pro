@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.head{
+    padding: 10px;
+    text-align: center;
+    padding: 8px;
+    background-image:  url(https://media.istockphoto.com/id/1061054340/photo/crater-lake-national-park-at-sunrise.jpg?s=612x612&w=is&k=20&c=tPhSleCHbBenPm7jgab12UjPLdB87YXKLCW-eFgbk0A=);
+    min-height: 100vh;
+}
+
+.a{
+    background-image: url(https://media.istockphoto.com/id/489477538/photo/temple-on-the-water-in-india.jpg?s=612x612&w=0&k=20&c=NkJItW6gqI8wZTIJ-GtzD3hZku2E6ElJAhzYG8puUsY=);
+    min-height: 1200px;
+}
+.b{
+    background-image: url(https://unsplash.com/photos/landscape-photo-of-mountain-near-body-of-water-xX9rvPNTZEI);
+    min-height: 1200px;
+}
+.c{
+    background-image: url(https://media.istockphoto.com/id/1070687946/photo/night-landscape-with-milky-way-starry-sky-universe.jpg?s=612x612&w=is&k=20&c=WrGrGijqyXlv0xucVhqH3B9vTZsEq5MTqV1py-HfXj8=);
+    min-height: 1200px;
+}
+
+.head,.a,.b,.c{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1{
+    position: relative;
+    top:40vh;
+    left: 37vw;
+    height: 80px;
+    width: 600px;
+    font-size: 40px;
+    line-height: 80px;
+    background: #121212;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.cap{
+    position: relative;
+    top:41vh;
+}
+
+.sec{
+    position: relative;
+    top:250px;
+    height: 400px;
+    width: 98vw;
+    display: flex;
+    justify-content: space-between;
+    background: crimson;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;}
+
+h2{
+    background: #121212;
+    color: aliceblue;
+    padding: 8px;
+    margin: 8px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+p{
+    background-color: yellow;
+    padding: 8px;
+    margin: 8px;
+}
+
+img{
+    height:380px;
+    width:520px;
+    border-radius: 15px;
+    padding: 9px;
+}

@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.head{
+    padding: 10px;
+    text-align: center;
+    padding: 8px;
+    background-image:  url(https://offbeatwanderers.com/storage/2022/10/Ratangad-Cloud-1.png);
+    min-height: 100vh;
+}
+
+.a{
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/06/91/5b/bd/takmok-tok.jpg);
+    min-height: 1200px;
+}
+.b{
+    background-image: url(https://images.thrillophilia.com/image/upload/s--xYzfxHHw--/c_fill,f_auto,fl_strip_profile,h_600,q_auto,w_975/v1/images/photos/000/253/944/original/1588889092_ratangad.jpg.jpg?1588889092);
+    min-height: 1200px;
+}
+.c{
+    background-image: url(https://www.treksandhikes.com/wp-content/uploads/2017/08/ratangad-trek.jpg);
+    min-height: 1200px;
+}
+
+.head,.a,.b,.c{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1{
+    position: relative;
+    top:40vh;
+    left: 37vw;
+    height: 80px;
+    width: 600px;
+    font-size: 40px;
+    line-height: 80px;
+    background: #121212;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.cap{
+    position: relative;
+    top:41vh;
+}
+
+.sec{
+    position: relative;
+    top:250px;
+    height: 400px;
+    width: 98vw;
+    display: flex;
+    justify-content: space-between;
+    background: crimson;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;}
+
+h2{
+    background: #121212;
+    color: aliceblue;
+    padding: 8px;
+    margin: 8px;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+p{
+    background-color: yellow;
+    padding: 8px;
+    margin: 8px;
+}
+
+img{
+    height:380px;
+    width:520px;
+    border-radius: 15px;
+    padding: 9px;
+}
